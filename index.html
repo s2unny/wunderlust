@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf=8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wunderlust Travel</title>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#contact" class="skip-link">Skip to form</a>
+    <a href="#majorca" class="skip-link">Skip to images</a>
     <header>
         <h1>Wunderlust Travel</h1>
         <picture>
@@ -112,41 +114,49 @@
             <h2>Testimonials</h2>
             <div>
                 <h3>Miranda Blake</h3>
-                miranda-blake.png
-                <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png">
-                <source media="(min-width: 780px)" srcset="images/miranda-blake-M.png">
-                <img src="images/miranda-blake-S.png" alt="Miranda Blake">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png">
+                    <source media="(min-width: 780px)" srcset="images/miranda-blake-M.png">
+                    <img src="images/miranda-blake-S.png" alt="Miranda Blake, female with short blonde hair">
+                </picture>
                 <p>Traveling From: London, England</p>
                 <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
             </div>
 
             <div>
                 <h3>Max Winter</h3>
-                <source media="(min-width: 1024px)" srcset="images/max-winter-L.png">
-                <source media="(min-width: 780px)" srcset="images/max-winter-M.png">
-                <img src="images/max-winter-S.png" alt="Max Winter">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/max-winter-L.png">
+                    <source media="(min-width: 780px)" srcset="images/max-winter-M.png">
+                    <img src="images/max-winter-S.png" alt="Max Winter, male with short blonde hair">
+                </picture>
                 <p>Traveling From: Berlin, Germany</p>
                 <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer. ”</blockquote>
             </div>
 
             <div>
                 <h3>Inés Villegoes</h3>
-                <source media="(min-width: 1024px)" srcset="images/ines-villegoes-L.png">
-                <source media="(min-width: 780px)" srcset="images/ines-villegoes-M.png">
-                <img src="images/ines-villegoes-S.png" alt="Ines Villegoes">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/ines-villegoes-L.png">
+                    <source media="(min-width: 780px)" srcset="images/ines-villegoes-M.png">
+                    <img src="images/ines-villegoes-S.png" alt="Ines Villegoes, female with long auburn hair">
+                </picture>
                 <p>Traveling From: Barcelona, Spain</p>
                 <blockquote>“A very safe environment for all travelers.”</blockquote>
             </div>
 
             <div>
                 <h3>Carmen Lorenzo</h3>
-                <source media="(min-width: 1024px)" srcset="images/carmen-lorenzo-L.png">
-                <source media="(min-width: 780px)" srcset="images/carmen-lorenzo-M.png">
-                <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/carmen-lorenzo-L.png">
+                    <source media="(min-width: 780px)" srcset="images/carmen-lorenzo-M.png">
+                    <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo, female with medium length brown hair">
+                </picture>
                 <p>Traveling From: Madrid, Spain</p>
                 <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
             </div>      
-    
+        </section>
+
         <section id="about">
             <h2>About Your Destination</h2>
             <div>
@@ -159,7 +169,7 @@
                 <path d="M10 13l-1.5 -1.5" />
                 <path d="M7 16l-1.5 -1.5" />
                 </svg>
-                <p>Size: 1,405 miles squared</p>
+                <p>1,405 miles squared</p>
             </div>
 
             <div>
@@ -170,7 +180,7 @@
                 <path d="M15 6l-3 -3l-3 3" />
                 <line x1="9" y1="21" x2="15" y2="21" />
                 </svg>
-                <p>Elevation: 4,741 feet</p>
+                <p>4,741 feet</p>
             </div>
 
             <div>
@@ -180,7 +190,7 @@
                 <circle cx="12" cy="11" r="3" />
                 <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                 </svg>
-                <p>Location: Mediterranean</p>
+                <p>Mediterranean</p>
             </div>
 
             <div>
@@ -192,17 +202,17 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
                 </svg>
-                <p>Population: 923,608</p>
+                <p>923,608</p>
             </div>
         </section>
     
         <section id="contact">
             <h2>Contact Us</h2>
             <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
-                <label for="name">First Name (Enter first name)</label>
-                <input type="text" id="name" name="first-name" required>
-                <label for="name">Last Name (Enter last name)</label>
-                <input type="text" id="name" name="last-name" required>
+                <label for="first-name">First Name (Enter first name)</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Last Name (Enter last name)</label>
+                <input type="text" id="last-name" name="last-name" required>
                 
                 <fieldset>
                     <legend>Contact Method (Email, Text, Phone)</legend>
